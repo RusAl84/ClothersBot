@@ -2,7 +2,7 @@ import telebot;
 from telebot import types
 import json
 
-bot = telebot.TeleBot('5068289217:AAGeuJKqN2bYezjE1bUx4i0nuz78dbvE_iQ1');
+bot = telebot.TeleBot('5111904045:AAEpmACzdNCMQJOiLT2ZetCIrV_KlEq-xYI');
 
 categories=['Одежда','Обувь','Аксессуары']
 clothes=['Верхняя одежда','Худи и свитшоты','Футболки и майки','Штаны',"Шорты","Костюмы","Спортивные костюмы","Нижнее белье"]
@@ -86,7 +86,8 @@ def callback_worker(call):
 #штаны
 #
     elif call.data == pants[0]:
-        bot.send_message(call.from_user.id, sorry)
+        from get_all_shtani import get_all_shtani
+        bot.send_message(call.from_user.id, get_all_shtani())
     elif call.data == pants[1]:
         bot.send_message(call.from_user.id, sorry)
     elif call.data == pants[2]:

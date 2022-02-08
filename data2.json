@@ -1,5 +1,4 @@
-[
-    {
+[{
         "brand": "Levi's",
         "color": "Чёрный",
         "cost": {
@@ -7,18 +6,25 @@
             "rub": 19916
         },
         "link": "https://www.farfetch.com/ru/shopping/women/levis-1950s-701-item-16542555.aspx?storeid=9462",
-        "size": {
-            "female": {
+        "items": [{
+                "gender": "female",
                 "USA": "29",
                 "evro": "M",
                 "rus": "44"
             },
-            "male": {
+            {
+                "gender": "female",
+                "USA": "27",
+                "evro": "S",
+                "rus": "42"
+            },
+            {
+                "gender": "male",
                 "USA": "31",
                 "evro": "S",
                 "rus": "46"
             }
-        },
+        ],
         "type": "Прямой крой"
     },
     {
@@ -29,18 +35,19 @@
             "rub": 8490
         },
         "link": "https://www.asos.com/ru/calvin-klein-jeans-plus/chernye-dzhinsy-skinni-s-zavyshennoj-taliej-calvin-klein-jeans-plus/prd/24060103?clr=chernyj-dzhinsovyj&colourWayId=60535749&SearchQuery=%D0%B4%D0%B6%D0%B8%D0%BD%D1%81%D1%8B+calvin+klein&SearchRedirect=true",
-        "size": {
-            "female": {
+        "items": [{
+                "gender": "female",
                 "USA": "36",
                 "evro": "3XL",
                 "rus": "56"
             },
-            "male": {
+            {
+                "gender": "male",
                 "USA": "42",
                 "evro": "4XL",
                 "rus": "58"
             }
-        },
+        ],
         "type": "Skinny"
     },
     {
@@ -51,18 +58,19 @@
             "rub": 12000
         },
         "link": "https://www.asos.com/ru/armani-exchange/vybelennye-zauzhennye-dzhinsy-armani-exchange-j14/prd/200783995?clr=vybelennyj-sine-goluboj&colourWayId=200784004&SearchQuery=%D0%B4%D0%B6%D0%B8%D0%BD%D1%81%D1%8B+armani",
-        "size": {
-            "female": {
+        "items": [{
+                "gender": "female",
                 "USA": "31",
                 "evro": "L",
                 "rus": "48"
             },
-            "male": {
+            {
+                "gender": "male",
                 "USA": "34",
                 "evro": "L",
                 "rus": "50"
             }
-        },
+        ],
         "type": "Skinny"
     },
     {
@@ -73,18 +81,19 @@
             "rub": 68000
         },
         "link": "https://www.farfetch.com/ru/shopping/women/gucci--item-15395384.aspx?storeid=9359",
-        "size": {
-            "female": {
+        "items": [{
+                "gender": "female",
                 "USA": "25",
                 "evro": "XS",
                 "rus": "40"
             },
-            "male": {
+            {
+                "gender": "male",
                 "USA": "",
                 "evro": "",
                 "rus": ""
             }
-        },
+        ],
         "type": "Расклешенные"
     },
     {
@@ -95,18 +104,19 @@
             "rub": 8900
         },
         "link": "https://www.yoox.com/ru/42847859FT/item#dept=men&cod10=42847859FT&sizeId=5",
-        "size": {
-            "female": {
+        "items": [{
+                "gender": "female",
                 "USA": "29",
                 "evro": "M",
                 "rus": "44"
             },
-            "male": {
+            {
+                "gender": "male",
                 "USA": "31",
                 "evro": "S",
                 "rus": "46"
             }
-        },
+        ],
         "type": "Обычный крой"
     }
 ]
